@@ -1,20 +1,25 @@
-# SalesAnalysis_SQL_PowerBI
+# Análise de vendas com SQL & Power BI
 
-### Setup
-- This project requires SQL Server (SQL Express), Power BI Desktop
-- We will work with backup Data Warehouse (DW) data and Lightweight (LT) data. Obtain data and restore following instructions from [here.](https://docs.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver15&tabs=ssms)
-- Compare DW and LT data to understand the difference between structured and unstructured data. We will primarily be working with Data Warehouse data.
-- Update Data Warehouse data using [sql script.](https://github.com/techtalkcorner/SampleDemoFiles/blob/master/Database/AdventureWorks/Update_AdventureWorksDW_Data.sql)
+### Arquitetura
+- Projeto desenvolvido junto a [DataCamp.](https://www.datacamp.com/)
+- Este projeto foi construído com SQL Server (SQL Express) e Power BI Desktop.
+- Trabalharemos com dados de backup do Data Warehouse (DW) e dados Lightweight (LT). É possível obter os dados e as instruções fornecidas [aqui.](https://docs.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver15&tabs=ssms)
+- Primeiramente houve uma comparação entre os dados do DW e do LT para entender a diferença entre dados estruturados e não estruturados. Trabalharemos principalmente com dados do Data Warehouse.
 
-### Business Request & User Stories
-- Read the sample business request, demand overview & filled-out user stories to understand the problem we are trying to solve with Data Analysis and what we consider as a solution.
+![arch](https://user-images.githubusercontent.com/76848908/235903671-e3b7f8aa-8f80-4db6-9f41-97a00e3bd400.png)
 
-### Clean the Data using T-SQL
-- Understand the difference between FACT tables & Dimension tables.
-- Identify which tables in the data are of interest with the help of the Business Request form.
-- Choose which columns are of interest to export by preparing and transforming these columns in SQL using concepts such as: renaming columns, combining columns, commenting in SQL script, formatting of SQL statements, WHERE clause, ORDER BY, LEFT JOIN, CASE() function and ISNULL() function. 
+### Business Plan e Solicitação de Usuários de Negócio
+- Solicitação de negócios de amostra, a visão geral da demanda e o storytelling de usuários para entender o problema que estamos tentando resolver com a análise de dados e o que consideramos como solução.
 
-### Create Dashboard in Power BI
+![bp](https://user-images.githubusercontent.com/76848908/235900060-43882d4f-90b8-4e5d-aada-e0bdb24d964b.png)
+
+### Limpeza de dados usando SQL
+- Diferença entre tabelas FATO e Dimensões.
+- Definição da Pipelina ETL.
+- Identificar quais tabelas nos dados são de interesse com o auxílio do modelo de negócio.
+- Escolher quais colunas são de interesse para exportação, preparando e transformando essas colunas em SQL usando conceitos como: renomear colunas, combinar colunas, comentar no script SQL, formatação de declarações SQL, cláusula WHERE, ORDER BY, LEFT JOIN, função CASE() e função ISNULL().
+
+### Criação do Dashboard - Power BI
 - Load Data
 - Organize & Prepare Tables
 - Connect Tables for Data Model
@@ -32,6 +37,9 @@
 - Customer Details
 - Pivot Table
 
-### Dashboard
-- [Download the file](https://github.com/AsifRashid01/SalesAnalysis_SQL_PowerBI/blob/main/Sales%20Report.pbix) and open in Power BI Desktop for interactive viewing.
-- [See a screenshot](https://github.com/AsifRashid01/SalesAnalysis_SQL_PowerBI/blob/main/Sales%20Report.pdf) of the Dashboard in pdf.
+![pb1](https://user-images.githubusercontent.com/76848908/235901748-dee06e84-25d5-4c5a-9049-b8d28dcb5ed2.png)
+
+![pb2](https://user-images.githubusercontent.com/76848908/235901823-190b4dee-2eac-4db9-a251-b832970856ed.png)
+
+![pb3](https://user-images.githubusercontent.com/76848908/235901921-80d2e11e-a69a-4af6-9693-5d998f37da99.png)
+
