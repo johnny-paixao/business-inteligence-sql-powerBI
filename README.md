@@ -13,6 +13,9 @@
 
 ![bp](https://user-images.githubusercontent.com/76848908/235900060-43882d4f-90b8-4e5d-aada-e0bdb24d964b.png)
 
+![bp2](https://user-images.githubusercontent.com/76848908/235904089-768f9d44-47e6-4d15-80a5-bfc03bd1db59.png)
+
+
 ### Limpeza de dados usando SQL
 - Diferença entre tabelas FATO e Dimensões.
 - Definição da Pipelina ETL.
